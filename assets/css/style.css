@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header styles start */ 
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +52,9 @@ p {
     font-size: 16px;
 }
 
+/* Header styles end */
+
+/* Hero styles start */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +63,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* Hero styles end */
 
 .float-left {
     float: left;
@@ -75,6 +82,8 @@ p {
     margin-left: 20px;
 }
 
+/* Benefits styles start */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,25 +95,39 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost {
+.benefit-lead,
+.benefit-brand,
+.benefit-cost, 
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3,
+.benefit-cost p {
     margin-bottom: 32px;
     color: #ffffff;
     text-align: center;
+} 
+
+.benefit-cost p,
+.benefit-brand p,
+.benefit-lead p {
+    text-align: left;
 }
 
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
-    margin-bottom: 32px;
-    color: #ffffff;
-    text-align: center;
-}    
-
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+/* Benefits styles end */
+
+/* SEO styles start */
+
+.search-engine-optimization, 
+.online-reputation-management, 
+.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -113,14 +136,22 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+.search-engine-optimization img, 
+.online-reputation-management img, 
+.social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+.search-engine-optimization h2, 
+.online-reputation-management h2, 
+.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* SEO styles end */
+
+/* Footer styles start */
 
 .footer {
     padding: 30px;
@@ -132,3 +163,5 @@ p {
 .footer h4 {
     font-size: 20px;
 }
+
+/* Footer styles end */
